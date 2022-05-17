@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "4 Сири",
+        "description": "Основа, вершки, сир моцарелла,королівський сир, пармезан, сир дор блю",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/4-syry.png",
+        "price": 176,
+        "gramm": 420
+    },
+    {
+        "id": 2,
+        "title": "Капрічоза",
+        "description": "Основа, томатний соус, сир моцарелла, гриби, салямі, шинка, помідори",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/kozaczka.png",
+        "price": 230,
+        "gramm": 420
+    },
+    {
+        "id": 3,
+        "title": "Пронто",
+        "description": "Основа, томатний соус, сир моцарелла, салямі, курка, шинка, бекон, помідори",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/czezar.png",
+        "price": 213,
+        "gramm": 420
+    },
+    {
+        "id": 4,
+        "title": "Салямі",
+        "description": "Основа, томатний соус, сир моцарелла, салямі",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/pronto.png",
+        "price": 245,
+        "gramm": 420
+    },
+    {
+        "id": 5,
+        "title": "Гавайська",
+        "description": "Основа, вершки, сир моцарелла, куряче філе, кукурудза, ананаси, маслини",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/gavajska.png",
+        "price": 158,
+        "gramm": 420
+    },
+    {
+        "id": 6,
+        "title": "Козацька",
+        "description": "Основа, томатний соус, сир моцарелла, салямі, шинка, мисливські, огірки, цибуля, чілі",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/kozaczka.png",
+        "price": 207,
+        "gramm": 420
+    },
+    {
+        "id": 7,
+        "title": "Спайсі Курка",
+        "description": "Основа, томатний соус, сир моцарелла, курка, кукурудза, соус солодкий чіл",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/spajsi-kurka.png",
+        "price": 162,
+        "gramm": 420
+    },
+    {
+        "id": 8,
+        "title": "Папероні",
+        "description": "Основа, томатний соус, сир моцарелла, папероні",
+        "imageUrl": "https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2021/07/paperoni.png",
+        "price": 210,
+        "gramm": 420
+    }
+]

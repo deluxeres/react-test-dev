@@ -8,7 +8,7 @@ function Header() {
       <Container maxW={1200}>
         <div className="header__menu">
           <div className="header__logo">
-            <span>React Test</span>
+            <span>React dev</span>
           </div>
           <div className="header__link">
             <ul>
@@ -16,10 +16,10 @@ function Header() {
                 <a href="/">Главная</a>
               </li>
               <li>
-                <a href="/">Форум</a>
+                <a href="/">Пицца</a>
               </li>
               <li>
-                <a href="/">Тесты</a>
+                <a href="/">Роллы</a>
               </li>
             </ul>
           </div>
