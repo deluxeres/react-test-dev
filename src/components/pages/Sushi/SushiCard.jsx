@@ -1,5 +1,5 @@
-import "./card.scss";
-import products from "../db.json";
+import "../../Card/card.scss";
+import products from "../../dbSushi.json";
 import { useState } from "react";
 
 function Card() {
@@ -9,7 +9,7 @@ function Card() {
     <div>
       <input
         type="text"
-        placeholder="Введите название пиццы"
+        placeholder="Введите название"
         autoComplete="off"
         onChange={(event) => {
           setsearchTerm(event.target.value);

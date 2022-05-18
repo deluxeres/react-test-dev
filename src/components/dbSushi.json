@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Філадельфія Класік",
+        "description": "Рис, норі, лосось, сир філадельфія, огірок, авокадо",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/filadelfiya-klasik.jpg",
+        "price": 194,
+        "gramm": 240
+    },
+    {
+        "id": 2,
+        "title": "Каліфорнія Хіяші",
+        "description": "Рис, норі, креветка смажена в темпурі, спайсі соус, огірок, авокадо, кунжут, солодкий соус",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/ebi-sezam.jpg",
+        "price": 230,
+        "gramm": 420
+    },
+    {
+        "id": 3,
+        "title": "Сирний рол",
+        "description": "Рис, норі, сир філадельфія, огірок, помідор, сир чедер, японський майонез, кунжут",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/kaliforniya-hiyashi.jpg",
+        "price": 213,
+        "gramm": 420
+    },
+    {
+        "id": 4,
+        "title": "Рол Вугор",
+        "description": "Рис, норі, вугор, сир філадельфія, огірок, солодкий соус, кунжут",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/syrnyj-rol.jpg",
+        "price": 245,
+        "gramm": 420
+    },
+    {
+        "id": 5,
+        "title": "Рол Сальмон",
+        "description": "Рис, норі, лосось, ікра масаго, сир філадельфія, огірок",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/rol-vugor-2.jpg",
+        "price": 158,
+        "gramm": 420
+    },
+    {
+        "id": 6,
+        "title": "Каліфорнія Класік",
+        "description": "Рис, норі, сніжний краб, огірок, авокадо, японський майонез, солодкий соус, кунжут",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/rol-salmon.jpg",
+        "price": 207,
+        "gramm": 420
+    },
+    {
+        "id": 7,
+        "title": "Аяме Манго",
+        "description": "Рис, норі, лосось, сир філадельфія, огірок, авокадо, манго, японський майонез, солодкий соус, мигдальні пластівці",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/kaliforniya-klasik.jpg",
+        "price": 162,
+        "gramm": 420
+    },
+    {
+        "id": 8,
+        "title": "Гриль Сальмон",
+        "description": "Рис, норі, смажений лосось, огірок, авокадо, японський майонез, солодкий соус, кунжут",
+        "imageUrl": "https://prontopizza.ua/wp-content/uploads/2021/07/ayame-mango.jpg",
+        "price": 210,
+        "gramm": 420
+    }
+]

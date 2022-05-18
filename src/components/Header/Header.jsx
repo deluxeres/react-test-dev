@@ -1,15 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import "./header.scss";
 import { Container } from "@chakra-ui/react";
-import { Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const [show, setShow] = useState(false)
   return (
     <div className="header">
       <Container maxW={1200}>
         <div className="header__menu">
           <div className="header__logo">
-            <Link to="/">React dev</Link>
+            <Link className="headerLogo" to="/">React dev</Link>
           </div>
           <div className="header__link">
             <ul>
@@ -20,12 +21,12 @@ function Header() {
                 <Link to="/pizza">Пицца</Link>
               </li>
               <li>
-                <Link to="/">Роллы</Link>
+                <Link to="/sushi">Роллы</Link>
               </li>
             </ul>
           </div>
           <div className="header__burger">
-            <button>
+            <button onClick={() => setShow(!show)}>
               <svg
                 fill="#000000"
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,9 +40,9 @@ function Header() {
           </div>
         </div>
       </Container>
-      <div className="header__mobile">
+    {show &&       <div className="header__mobile">
         <div className="header-mobile__menu">
-          <div className="header-mobile__close">
+          <button onClick={() => setShow(!show)} className="header-mobile__close">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -65,22 +66,22 @@ function Header() {
                 d="M28.5 72c-.128 0-.256-.049-.354-.146-.195-.195-.195-.512 0-.707L49.293 50 32.146 32.854c-.195-.195-.195-.512 0-.707s.512-.195.707 0l17.5 17.5c.195.195.195.512 0 .707l-21.5 21.5C28.756 71.951 28.628 72 28.5 72zM25.5 75c-.128 0-.256-.049-.354-.146-.195-.195-.195-.512 0-.707l1-1c.195-.195.512-.195.707 0s.195.512 0 .707l-1 1C25.756 74.951 25.628 75 25.5 75z"
               />
             </svg>
-          </div>
+          </button>
           <div className="header-mobile__link">
             <ul>
               <li>
-                <a href="/">Главная</a>
+                <Link to="/">Главная</Link>
               </li>
               <li>
-                <a href="/">Пицца</a>
+                <Link to="/pizza">Пицца</Link>
               </li>
               <li>
-                <a href="/">Роллы</a>
+                <Link to="/sushi">Роллы</Link>
               </li>
             </ul>
           </div>
         </div>
-      </div>
+      </div>}
     </div>
   );
 }
