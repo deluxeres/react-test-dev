@@ -1,0 +1,61 @@
+.inner {
+    &__container {
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        transition: 0.3s;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        margin: 10px 5px;
+
+        -webkit-box-shadow: inset 0px -25px 40px 5px #000000; 
+        box-shadow: inset 0px -25px 40px 5px #000000;
+
+        span {
+            color: #fff;
+            font-weight: 700;
+            font-size: 30px;
+            display: block;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+.inner__card:hover {
+    -webkit-box-shadow: inset 0px -44px 43px 13px #000000; 
+    box-shadow: inset 0px -44px 43px 13px #000000;
+    span {
+        margin-bottom: 30px;
+        font-size: 33px;
+    }
+}
+
+.more {
+    background-image: url('https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2022/01/f.jpg');
+}
+
+.salat {
+    background-image: url('https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2022/01/k.png');
+}
+
+.sushi {
+    background-image: url('https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2022/01/csh.jpg');
+}
+
+.pizza {
+    background-image: url('https://prontopizza.ua/kiev/wp-content/uploads/sites/14/2022/01/p.jpg');
+}

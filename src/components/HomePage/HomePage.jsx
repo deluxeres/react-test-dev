@@ -6,6 +6,8 @@ import './HomePage.scss'
 import Card from '../Card/Card'
 import { Button } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
+import Sushi from '../pages/Sushi/SushiHome'
+import HomeInner from './HomeInner'
 
 function HomePage() {
   var settings = {
@@ -30,6 +32,9 @@ function HomePage() {
           </div>
         </Slider>
       </div>
+      <div className="home__inner">
+          <HomeInner />
+      </div>
       <div className="home__row">
         <div className="home__row-pizza">
             <span className="home__row-title">Пицца</span>
@@ -39,6 +44,12 @@ function HomePage() {
             <Link to="/pizza">
                   <Button colorScheme='red'>Посмотреть все</Button>
             </Link>
+        </div>
+        <div className="home__row-sushi">
+          <span className="home__row-title">Суши</span>
+           <div className="home__row-overflow">
+                <Sushi />
+            </div>
         </div>
       </div>
     </div>
